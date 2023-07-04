@@ -8,10 +8,11 @@ func main() {
 	var remainingTickets = 50
 	fmt.Printf("Welcome to %v Booking application\n", conf_name)
 	fmt.Printf("We have total tickets %v and %v are still remaining", conferenceTickets, conferenceTickets-remainingTickets)
-	var userName 
-	// ask user for their name 
+	var userName string
+	var userTickets int
+	// ask user for their name
 
 	userName = "Tom"
-	fmt.println(userName)
-
+	userTickets = 2
+	fmt.Printf("User %v booked %v tickets.\n", userName, userTickets)
 }
